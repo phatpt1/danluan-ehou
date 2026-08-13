@@ -110,7 +110,9 @@ elif choice == "Bài 3: Hệ thống kí hiệu":
     ''')
     
     st.subheader("5 Đặc trưng của Kí hiệu ngôn ngữ")
-    st.info("**1. Tính võ đoán (Arbitrariness):**\nMối quan hệ giữa Cái biểu đạt (vỏ âm thanh) và Cái được biểu đạt (ý nghĩa) không có lí do tự nhiên. \n*Ví dụ: Từ "cà cuống" gọi tên 1 loài côn trùng lưỡng cư, không liên quan gì đến nghĩa gốc của từ "cà" và "cuống".*")
+  st.info("""**1. Tính võ đoán (Arbitrariness):**
+Mối quan hệ giữa Cái biểu đạt (vỏ âm thanh) và Cái được biểu đạt (ý nghĩa) không có lí do tự nhiên. 
+*Ví dụ: Từ "cà cuống" gọi tên 1 loài côn trùng lưỡng cư, không liên quan gì đến nghĩa gốc của từ "cà" và "cuống".*""")
     st.info("**2. Tính đa trị (Multi-values):**\nSự đa dạng giữa hình thức - nội dung. Thể hiện qua từ đa nghĩa, đồng nghĩa, trái nghĩa, đồng âm; hoặc các hiện tượng nghĩa đen, nghĩa bóng, ẩn dụ, hoán dụ.")
     st.info("**3. Tính xuất hiện theo trật tự tuyến tính (Linear):**\nCác kí hiệu phải xuất hiện kế tiếp nhau liên tục trên trục thời gian. \n*Ví dụ thay đổi trật tự làm đổi nghĩa:*\n- Sao bảo nó không đến.\n- Bảo sao nó không đến.\n- Nó bảo sao không đến.")
     st.info("**4. Vừa đồng loại, vừa không đồng loại:**\nCó nhiều loại hình thức (âm vị, thanh điệu, hình vị...). Quan hệ giữa chúng theo nhiều cấp độ tôn ti (Âm vị < Hình vị < Từ < Cụm từ < Câu).")
