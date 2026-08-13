@@ -46,10 +46,6 @@ if choice == "Giới thiệu chung":
       "Ứng dụng tổng hợp chi tiết toàn bộ kiến thức môn Dẫn luận Ngôn ngữ học"
       " (ENO3)."
   )
-  st.write(
-      "Bản cập nhật này đã **SỬA HOÀN TOÀN LỖI MẤT ICON / LỖI ẢNH LOGO VỠ**,"
-      " đồng thời giữ nguyên toàn bộ nội dung chi tiết và ví dụ minh họa."
-  )
 
 elif choice == "Bài 1: Bản chất & Chức năng":
   st.title("Bài 1: Bản chất và Chức năng của Ngôn ngữ")
