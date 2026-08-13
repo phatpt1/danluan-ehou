@@ -23,252 +23,297 @@ if choice == "Giới thiệu chung":
     st.markdown("---")
     st.info("**Giảng viên:** PGS.TS. Phạm Tất Thắng\n\n**Đơn vị:** Chương trình Đào tạo Trực tuyến - Trường Đại học Mở Hà Nội")
     st.write("Ứng dụng tổng hợp chi tiết toàn bộ kiến thức môn Dẫn luận Ngôn ngữ học (ENO3).")
-    st.write("Bản cập nhật này bổ sung đầy đủ các ví dụ minh họa, quy tắc chính tả, tác giả các học thuyết và các khái niệm chuyên sâu nhằm hỗ trợ tối đa cho việc ôn thi và nghiên cứu ngôn ngữ.")
+    st.write("Bản cập nhật này đã **SỬA TRIỆT ĐỂ LỖI CÚ PHÁP**, đồng thời **BỔ SUNG RẤT NHIỀU VÍ DỤ CHUYÊN SÂU** cho từng bài học nhằm giúp bạn dễ dàng nắm bắt các khái niệm trừu tượng.")
     
 elif choice == "Bài 1: Bản chất & Chức năng":
     st.title("Bài 1: Bản chất và Chức năng của Ngôn ngữ")
     tab1, tab2 = st.tabs(["Bản chất của Ngôn ngữ", "Chức năng của Ngôn ngữ"])
     
     with tab1:
-        st.subheader("1. Quan niệm duy tâm")
-        st.markdown('''
-        * Cho rằng ngôn ngữ giống các hiện tượng tự nhiên (sấm, sét, mưa, gió, hạn hán...).
-        * Coi ngôn ngữ giống tiếng kêu của động vật.
-        * Cho rằng ngôn ngữ có tính di truyền.
+        st.subheader("1. Quan niệm duy tâm (Đã lỗi thời)")
+        st.markdown("""
+        * Cho rằng ngôn ngữ giống các hiện tượng tự nhiên (như sấm, sét, mưa, gió...).
+        * Coi ngôn ngữ giống tiếng kêu của động vật (bản năng).
+        * Cho rằng ngôn ngữ có tính di truyền (cha sinh con ra tự nhiên biết nói).
         * Ngôn ngữ là hiện tượng cá nhân hay của một giai cấp nhất định.
-        ''')
+        """)
         
-        st.subheader("2. Quan niệm duy vật")
-        st.success("**Ngôn ngữ là hiện tượng xã hội:**\n* Được sinh ra trong xã hội do con người sáng tạo ra.\n* Là tài sản chung cho cả cộng đồng chứ không thuộc về cá nhân.\n* Sự tồn tại và phát triển của ngôn ngữ gắn liền với sự tồn tại và phát triển của xã hội.")
-        st.info("**Ngôn ngữ là hiện tượng xã hội đặc biệt:**\n* Không thuộc cơ sở hạ tầng và kiến trúc thượng tầng.\n* Không có tính giai cấp.\n* Có mối liên hệ trực tiếp với hoạt động sản xuất.")
+        st.subheader("2. Quan niệm duy vật (Chính xác)")
+        st.success("""
+        **A. Ngôn ngữ là hiện tượng xã hội:**
+        * Được sinh ra trong xã hội do con người sáng tạo ra. Trẻ em nếu bị cô lập khỏi xã hội loài người (như bé gái người sói) sẽ không có ngôn ngữ.
+        * Là tài sản chung cho cả cộng đồng, không ai có đặc quyền sở hữu.
+        * Phát triển gắn liền cùng xã hội. **Ví dụ:** Khi xã hội xuất hiện Internet, các từ vựng mới như *livestream, netizen, AI, app* lập tức ra đời để đáp ứng nhu cầu giao tiếp.
+        """)
+        st.info("""
+        **B. Ngôn ngữ là hiện tượng xã hội ĐẶC BIỆT:**
+        * **Không thuộc cơ sở hạ tầng hay kiến trúc thượng tầng:** Khi chế độ phong kiến sụp đổ, hệ tư tưởng phong kiến mất đi, nhưng tiếng Việt không hề bị diệt vong, nó vẫn tiếp tục phục vụ xã hội mới.
+        * **Không có tính giai cấp:** Cả người giàu và người nghèo, giai cấp thống trị hay bị trị đều dùng chung một bộ quy tắc ngữ pháp và từ vựng. Không có "ngôn ngữ của người giàu" theo định nghĩa hệ thống.
+        * **Có mối liên hệ trực tiếp với sản xuất:** Ngôn ngữ hỗ trợ con người hiệp đồng lao động.
+        """)
         
     with tab2:
         st.subheader("1. Chức năng giao tiếp")
-        st.write("Giao tiếp là hoạt động trao đổi thông tin. So với các phương tiện khác (cử chỉ, tín hiệu giao thông, morse...), ngôn ngữ là công cụ quan trọng nhất vì:")
-        st.markdown('''
-        * Nội dung biểu đạt phong phú, đa dạng và chi tiết hơn.
-        * Gần gũi và quen thuộc với đời sống con người.
-        * Có khả năng biểu thị mọi trạng thái cảm xúc của con người.
-        ''')
+        st.write("Giao tiếp là hoạt động truyền đạt và trao đổi thông tin. Ngôn ngữ là công cụ vạn năng và quan trọng nhất vì:")
+        st.markdown("""
+        * **Vượt qua không gian và thời gian:** Ta có thể đọc được suy nghĩ của người xưa qua các văn bản lịch sử.
+        * **Đa dạng và chi tiết:** Có thể diễn tả từ những khái niệm cụ thể (cái bàn, cái ghế) đến trừu tượng (hạnh phúc, triết học, hạt quark).
+        * **Biểu thị cảm xúc:** Kết hợp với ngữ điệu để truyền tải sự phẫn nộ, vui mừng, mỉa mai...
+        """)
         
         st.subheader("2. Chức năng thể hiện tư duy")
-        st.write("Tư duy là quá trình nhận thức thế giới từ trực quan sinh động (cảm tính) đến trừu tượng (lí tính).")
-        st.markdown('''
-        * **Hiện thực trực tiếp của tư tưởng:** Bất kì đơn vị có nghĩa nào (từ, cụm từ, câu) cũng chứa đựng ý nghĩ. *(Ví dụ: từ "mưa", câu "Trời mưa")*.
-        * **Tham gia hình thành tư tưởng:** Ý nghĩ được định hình dưới dạng ngôn ngữ. Nếu không diễn đạt được bằng ngôn ngữ, tư tưởng đó sẽ trở nên mơ hồ, trừu tượng và rất khó hiểu.
-        ''')
+        st.markdown("""
+        Tư duy và ngôn ngữ như hai mặt của một tờ giấy, không thể tách rời.
+        * **Ngôn ngữ là hiện thực trực tiếp của tư tưởng:** Mọi đơn vị có nghĩa đều chứa đựng ý nghĩ. Bạn không thể "nghĩ" ra một khái niệm nếu không có "từ" để khoác lên nó.
+        * **Quá trình hình thành tư tưởng:** Khi bạn giải toán hay lập luận, bạn thực chất đang "nói thầm" trong đầu bằng ngôn ngữ. Nếu diễn đạt bằng ngôn ngữ không rõ ràng (mơ hồ), điều đó chứng tỏ tư duy của bạn về vấn đề đó cũng đang bị rối.
+        """)
 
 elif choice == "Bài 2: Nguồn gốc & Phát triển":
     st.title("Bài 2: Nguồn gốc và Sự phát triển của Ngôn ngữ")
     
     with st.expander("🌟 Nguồn gốc của Ngôn ngữ", expanded=True):
-        st.markdown('''
-        **A. Các quan niệm trước chủ nghĩa Mác:** 
-        * **Thuyết Tượng thanh:** Do bắt chước âm thanh tự nhiên. *(Đại biểu: Platon, Augustin)*. Tuy có các từ tượng thanh (chim chích chòe, rì rào...) nhưng số lượng rất ít.
-        * **Thuyết Cảm thán:** Bắt nguồn từ âm thanh cảm xúc (vui, buồn, đau đớn). *(Đại biểu: Rút-sô, Stăng-đan)*. Số lượng thán từ (ối, á, a ha...) cũng không đủ làm nguồn gốc toàn bộ ngôn ngữ.
-        * **Thuyết Khế ước xã hội:** Do con người thỏa thuận với nhau. *(Đại biểu: Adam Smít, Rút-sô)*. Nhược điểm: Muốn thỏa thuận thì phải có ngôn ngữ từ trước.
-        * **Thuyết Ngôn ngữ Cử chỉ:** Dùng tư thế cơ thể và tay. *(Đại biểu: Vunter, Mac)*. Thực tế cử chỉ chỉ đi kèm phụ trợ, không thể đẻ ra tiếng nói.
+        st.markdown("""
+        **A. Các quan niệm trước chủ nghĩa Mác (Chủ quan, chưa hoàn thiện):** 
+        * **Thuyết Tượng thanh (Platon, Augustin):** Bắt chước âm thanh tự nhiên. 
+          * *Ví dụ:* chim chích chòe, tu hú, rào rào, đùng đoàng. -> Hạn chế: Những từ trừu tượng như "hòa bình", "tình yêu" thì bắt chước âm thanh gì?
+        * **Thuyết Cảm thán (Rút-sô):** Bắt nguồn từ tiếng kêu cảm xúc.
+          * *Ví dụ:* ối, á, ôi chao. -> Hạn chế: Thán từ quá ít, không thể tạo nên hàng vạn từ vựng.
+        * **Thuyết Khế ước (Adam Smít):** Do con người ngồi lại thỏa thuận. -> Hạn chế: Chưa có tiếng nói thì dùng gì để thỏa thuận?
         
-        **B. Quan niệm của chủ nghĩa Mác (Thuyết Lao động):**
-        * Do **C. Mác** và **Ph. Ăng-ghen** đề xướng. 
-        * Lao động giúp con người hoàn thiện về tư tưởng, có khả năng tư duy trừu tượng. Lao động quyết định sự ra đời của ngôn ngữ (vừa tạo nhu cầu giao tiếp, vừa thúc đẩy tư duy). **Đây là quan niệm duy nhất đúng.**
-        ''')
+        **B. Quan niệm của chủ nghĩa Mác (Thuyết Lao động - Duy nhất đúng):**
+        * Bắt nguồn từ C. Mác và Ph. Ăng-ghen.
+        * **Cơ chế:** Quá trình lao động chung (săn bắt, hái lượm) buộc con người *phải* giao tiếp để phối hợp. Đồng thời, lao động làm biến đổi bộ máy phát âm và hoàn thiện vỏ não, giúp con người có khả năng tư duy trừu tượng -> Ngôn ngữ ra đời.
+        """)
         
     with st.expander("📈 Quá trình phát triển", expanded=True):
-        st.markdown('''
-        1. **Ngôn ngữ bộ lạc:** Cộng đồng thị tộc (cùng huyết thống) kết hợp thành bộ lạc, có chung 1 ngôn ngữ trên 1 lãnh thổ.
-        2. **Ngôn ngữ khu vực:** Bước quá độ khi bộ lạc tan rã, dùng làm tiếng nói chung cho mọi người trong một vùng không phân biệt thị tộc.
-        3. **Ngôn ngữ dân tộc:** Đòi hỏi của nhà nước/dân tộc. Dựa trên sự thống nhất có chọn lọc từ các phương ngữ. *(Ví dụ: VN có 3 vùng phương ngữ Bắc, Trung, Nam).*
-        4. **Ngôn ngữ văn hóa:** Biến thể được trau chuốt, chuẩn mực hóa, dùng trong văn học, hành chính, khoa học. Tồn tại ở dạng Nói và Viết.
-        5. **Ngôn ngữ cộng đồng tương lai:** Thứ ngôn ngữ quốc tế dùng chung cho nhân loại. 
-        ''')
-        st.write("*Ví dụ về Quốc tế ngữ Esperanto (L.L. Zamenhof sáng lập 1887):*")
-        df = pd.DataFrame({
-            "Tiếng Việt": ["Xin chào", "Cảm ơn", "Tôi yêu bạn"],
-            "Tiếng Anh": ["Hello", "Thank you", "I love you"],
-            "Esperanto": ["Saluton", "Dankon", "Mi amas vin"]
-        })
-        st.table(df)
+        st.markdown("""
+        1. **Ngôn ngữ bộ lạc:** Quy mô nhỏ, dùng nội bộ trong thị tộc cùng huyết thống.
+        2. **Ngôn ngữ khu vực:** Khi bộ lạc sáp nhập, hình thành phương ngữ vùng.
+        3. **Ngôn ngữ dân tộc:** Khi hình thành nhà nước, cần một ngôn ngữ chung. 
+          * *Ví dụ thực tế:* Tiếng Việt dân tộc được xây dựng dựa trên sự hòa trộn của 3 phương ngữ Bắc - Trung - Nam, nhưng lấy âm sắc Hà Nội làm chuẩn mực để giao tiếp chung.
+        4. **Ngôn ngữ văn hóa:** Là ngôn ngữ đã được chuẩn hóa (có từ điển, có luật chính tả), dùng trong giáo dục, báo chí, văn học nghệ thuật. 
+          * *Ví dụ:* Ngôn ngữ trong các bản tin thời sự VTV là ngôn ngữ văn hóa.
+        5. **Ngôn ngữ cộng đồng tương lai:** Ước mơ về ngôn ngữ chung cho toàn cầu (ví dụ: quốc tế ngữ Esperanto).
+        """)
         
     with st.expander("⚙️ Cách thức & Nhân tố phát triển"):
-        st.markdown('''
-        * **Cách thức:** Phát triển kế thừa (từ từ, liên tục), không nhảy vọt. Tốc độ thay đổi không đồng đều:
-          * *Từ vựng:* Thay đổi nhanh nhất, tức thời phản ánh xã hội.
-          * *Ngữ âm:* Biến đổi chậm.
-          * *Ngữ pháp:* Biến đổi chậm nhất vì là kết cấu lõi.
-        * **Nhân tố khách quan:** Kinh tế, chính trị, văn hóa, giáo dục.
-        * **Nhân tố chủ quan:** Quan điểm, thái độ của con người, chính sách pháp luật về ngôn ngữ quốc gia/ngoại ngữ.
-        ''')
+        st.markdown("""
+        **1. Phát triển không đồng đều (Rất quan trọng):**
+        * **Từ vựng (Nhanh nhất):** Mỗi năm tiếng Việt bổ sung hàng trăm từ mới (gen Z, flex, thả thính, trí tuệ nhân tạo).
+        * **Ngữ âm (Chậm hơn):** Phải qua hàng trăm năm người ta mới đổi cách phát âm (như tiếng Việt cổ rụng bớt các tổ hợp phụ âm kép: *blời* -> *trời*, *mlời* -> *lời*).
+        * **Ngữ pháp (Chậm nhất):** Quy tắc S-V-O (Chủ-Động-Tân) của tiếng Việt, Anh... duy trì hàng ngàn năm không đổi.
+        
+        **2. Nhân tố tác động:**
+        * *Khách quan:* Giao lưu kinh tế, xâm lược (Vd: Tiếng Việt mượn rất nhiều từ Hán-Việt do 1000 năm Bắc thuộc, mượn từ tiếng Pháp như: *xà phòng, gác-đờ-măng, phanh, lốp*).
+        * *Chủ quan:* Các chính sách giáo dục ngôn ngữ của nhà nước.
+        """)
 
 elif choice == "Bài 3: Hệ thống kí hiệu":
     st.title("Bài 3: Ngôn ngữ là Hệ thống Kí hiệu Đặc biệt")
     
-    st.markdown('''
-    * **Hệ thống:** Một thể thống nhất gồm các yếu tố và mối liên hệ giữa chúng. *(Ví dụ: "Gia đình" là hệ thống gồm các thành viên và quan hệ giữa họ).*
-    * **Kí hiệu:** Dạng vật chất mang thông tin. Có tính vật chất, gồm Hình thức & Nội dung, mang tính quy ước và nằm trong hệ thống.
-    * **Ngôn ngữ:** Gồm các đơn vị (Âm vị, hình vị, từ, cụm từ, câu) liên kết qua các quan hệ: **Tuyến tính** (ngang), **Liên tưởng** (dọc), và **Cấp độ** (bao thuộc).
-    ''')
+    st.markdown("""
+    * **Hệ thống:** Một thể thống nhất gồm các phần tử và mối quan hệ giữa chúng.
+    * **Kí hiệu:** Dạng vật chất mang thông tin. Một kí hiệu phải có vỏ hình thức (Cái biểu đạt) và nội dung ý nghĩa (Cái được biểu đạt).
+    """)
     
-    st.subheader("5 Đặc trưng của Kí hiệu ngôn ngữ")
-  st.info("""**1. Tính võ đoán (Arbitrariness):**
-Mối quan hệ giữa Cái biểu đạt (vỏ âm thanh) và Cái được biểu đạt (ý nghĩa) không có lí do tự nhiên. 
-*Ví dụ: Từ "cà cuống" gọi tên 1 loài côn trùng lưỡng cư, không liên quan gì đến nghĩa gốc của từ "cà" và "cuống".*""")
-    st.info("**2. Tính đa trị (Multi-values):**\nSự đa dạng giữa hình thức - nội dung. Thể hiện qua từ đa nghĩa, đồng nghĩa, trái nghĩa, đồng âm; hoặc các hiện tượng nghĩa đen, nghĩa bóng, ẩn dụ, hoán dụ.")
-    st.info("**3. Tính xuất hiện theo trật tự tuyến tính (Linear):**\nCác kí hiệu phải xuất hiện kế tiếp nhau liên tục trên trục thời gian. \n*Ví dụ thay đổi trật tự làm đổi nghĩa:*\n- Sao bảo nó không đến.\n- Bảo sao nó không đến.\n- Nó bảo sao không đến.")
-    st.info("**4. Vừa đồng loại, vừa không đồng loại:**\nCó nhiều loại hình thức (âm vị, thanh điệu, hình vị...). Quan hệ giữa chúng theo nhiều cấp độ tôn ti (Âm vị < Hình vị < Từ < Cụm từ < Câu).")
-    st.info("**5. Vừa có tính đồng đại, vừa có tính lịch đại:**\nLà sản phẩm của quá khứ để lại (lịch đại) nhưng lại đang được con người sử dụng làm công cụ tư duy, giao tiếp hàng ngày (đồng đại).")
+    st.subheader("5 Đặc trưng của Kí hiệu ngôn ngữ (Giải thích chi tiết & Ví dụ)")
+    
+    st.error("""
+    **1. Tính võ đoán (Arbitrariness):**
+    Không có lý do logic nào bắt buộc một âm thanh phải gắn với một ý nghĩa. Do cộng đồng tự quy ước.
+    * *Ví dụ 1:* Con vật hay sủa để giữ nhà, người Việt gọi là "chó", người Anh gọi là "dog", người Pháp gọi là "chien". Bản thân con vật không quy định cái tên của nó.
+    * *Ví dụ 2:* Từ "cà cuống" chỉ một loài côn trùng, nhưng hoàn toàn không liên quan gì đến nghĩa của chữ "cà" (quả cà) và "cuống" (cuống lá).
+    """)
+    
+    st.warning("""
+    **2. Tính đa trị (Multi-values):**
+    Một hình thức âm thanh có thể gánh nhiều ý nghĩa, hoặc nhiều hình thức cùng chỉ một ý nghĩa.
+    * *Hiện tượng Đa nghĩa:* Từ "Chân" (chân người, chân bàn, chân núi). Từ "Đầu" (đầu người, đầu giường, đầu sông).
+    * *Hiện tượng Đồng âm:* "Đường" (con đường) và "Đường" (đường ăn).
+    * *Hiện tượng Đồng nghĩa:* Chết, hi sinh, qua đời, tỏi, ngoẻo.
+    """)
+    
+    st.info("""
+    **3. Tính tuyến tính (Linear) - TRỤC NGANG:**
+    Khi nói hay viết, các từ phải nối đuôi nhau lần lượt trên trục thời gian. Không thể phát âm 2 từ cùng một lúc. Trật tự sắp xếp tạo ra nghĩa khác nhau.
+    * *Ví dụ đảo trật tự:* 
+      * "Chó cắn mèo" (Mèo bị thương) KHÁC VỚI "Mèo cắn chó" (Chó bị thương).
+      * "Sao bảo nó không đến" KHÁC "Bảo sao nó không đến".
+    """)
+    
+    st.success("""
+    **4. Vừa đồng loại, vừa không đồng loại & TRỤC LIÊN TƯỞNG (TRỤC DỌC):**
+    * *Tôn ti cấp độ:* Âm vị (cấp thấp) ghép thành Hình vị $\\rightarrow$ Hình vị tạo thành Từ $\\rightarrow$ Từ ghép thành Câu.
+    * *Trục liên tưởng:* Tại một vị trí trong câu, ta có thể thay thế bằng các từ đồng loại. 
+      * Vd câu: "Tôi **ăn** cơm". Ta có thể liên tưởng thay chữ **ăn** bằng: *nhai, xơi, đớp, hốc* để tạo sắc thái khác nhau.
+    """)
+    
+    st.primary("""
+    **5. Vừa đồng đại, vừa lịch đại:**
+    * *Lịch đại (Quá khứ):* Từ "Thái thú", "Quan huyện" là sản phẩm lịch đại.
+    * *Đồng đại (Hiện tại):* Hệ thống đang được sử dụng ngay lúc này.
+    """)
 
 elif choice == "Bài 4: Ngữ âm":
     st.title("Bài 4: Ngữ âm")
-    st.markdown("Ngữ âm là vỏ vật chất âm thanh của ngôn ngữ. Có 2 phân ngành: **Ngữ âm học** (Phonetics - nghiên cứu bản chất chung) và **Âm vị học** (Phonology - nghiên cứu hệ thống âm thanh của 1 ngôn ngữ cụ thể).")
     
-    tab1, tab2, tab3 = st.tabs(["Bản chất & Đơn vị", "Hệ thống Âm vị Tiếng Việt", "Cấu tạo Âm tiết"])
+    tab1, tab2, tab3 = st.tabs(["Cơ sở & Đơn vị", "Hệ thống Tiếng Việt", "Âm tiết (Rất quan trọng)"])
     
     with tab1:
-        st.subheader("1. Bản chất")
-        st.markdown('''
-        * **Cơ sở vật lí:** Sóng âm dao động, đo bằng biên độ, cao độ, trường độ, cường độ, âm sắc.
-        * **Cơ sở sinh lí (Bộ máy phát âm):**
-          * *Phổi:* Khởi phát nguồn hơi.
-          * *Dây thanh:* Nằm trong thanh hầu, tạo tiếng thanh.
-          * *Khoang cộng hưởng:* 
-            * **Khoang họng:** Tạo âm họng/tắc họng (h, l).
-            * **Khoang mũi:** Tạo âm mũi (m, n, ng, p, t, k).
-            * **Khoang miệng:** Lớn nhất và quan trọng nhất (răng, lợi, lưỡi, ngạc...), phát ra hầu hết nguyên âm và phụ âm.
-        ''')
-        st.subheader("2. Các đơn vị")
-        st.markdown('''
-        * **Âm tố [a]:** Đơn vị ngữ âm nhỏ nhất về mặt cấu âm - thính giác.
-        * **Âm vị /a/:** Đơn vị ngữ âm nhỏ nhất có chức năng khu biệt vỏ âm thanh. *(Vd: "tan" có 3 âm vị /t/, /a/, /n/).*
-        * **Âm tiết:** Khúc đoạn âm thanh nhỏ nhất trong chuỗi lời nói. *(Vd: "hôm nay trời mưa" có 4 âm tiết).*
-        ''')
+        st.subheader("1. Cơ sở sinh lí (Bộ máy phát âm)")
+        st.write("Bộ máy phát âm con người giống như một chiếc đàn:")
+        st.markdown("""
+        * **Phổi:** Cung cấp luồng hơi (như động cơ).
+        * **Dây thanh (trong thanh quản):** Khi luồng hơi đi qua làm rung dây thanh tạo ra tiếng thanh. (Bạn thử đặt tay lên cổ họng và phát âm "z", sẽ thấy rung).
+        * **Khoang cộng hưởng (Họng, Mũi, Miệng):**
+          * *Khoang mũi:* Nếu luồng hơi đi qua mũi, ta có **âm mũi** (m, n, ng). Khi bạn bị cảm nghẹt mũi, bạn không thể nói chuẩn âm "m" (mẹ -> bẹ).
+          * *Khoang miệng:* Bộ phận quan trọng nhất (răng, môi, lưỡi). Lưỡi linh hoạt nhất tạo ra vô vàn âm. (Âm môi: p, b. Âm đầu lưỡi răng: t, th).
+        """)
+        
+        st.subheader("2. Âm tố vs Âm vị")
+        st.markdown("""
+        * **Âm tố (Ký hiệu `[ ]`):** Âm thanh thực tế phát ra (vật lí).
+        * **Âm vị (Ký hiệu `/ /`):** Khái niệm trừu tượng trong đầu, có chức năng **khu biệt nghĩa**.
+          * *Ví dụ:* Thay âm vị `/b/` bằng `/đ/` trong từ "bàn", ta có từ "đàn" -> Nghĩa thay đổi hoàn toàn. Vậy `/b/` và `/đ/` là hai âm vị khác nhau trong tiếng Việt.
+        """)
         
     with tab2:
         st.subheader("Hệ thống Âm vị Tiếng Việt")
-        st.markdown('''
+        st.markdown("""
         * **Nguyên âm:** 
-          * 11 nguyên âm đơn (trong đó /â/ và /ă/ là âm ngắn).
-          * 2 bán nguyên âm (/u/ và /i/).
-          * 3 nguyên âm đôi: **/iê/, /uô/, /ươ/** (Có quy tắc viết chính tả đa dạng, vd: uô $\rightarrow$ ua; iê $\rightarrow$ ia, yê, ya; ươ $\rightarrow$ ưa).
-        * **Phụ âm:** 17 phụ âm đơn, 10 phụ âm ghép.
-        ''')
-        with st.expander("📌 Quy tắc chính tả phụ âm quan trọng:"):
-            st.markdown('''
-            * **Phụ âm /k/:** 
-              * Viết là **K** trước e, ê, i, iê, y.
-              * Viết là **Q** trước bán nguyên âm u (quê, qua).
-              * Viết là **C** trước các nguyên âm còn lại (cá, con).
-            * **Phụ âm /g/:**
-              * Viết là **Gh** trước e, ê, i, iê.
-              * Viết là **G** trước các nguyên âm còn lại.
-            * **Phụ âm /ng/:**
-              * Viết là **Ngh** trước i, iê, ê, e.
-              * Viết là **Ng** trước các nguyên âm còn lại.
-            ''')
+          * 11 nguyên âm đơn (có /â/, /ă/ là âm ngắn. Vd phân biệt: "tai" (âm dài a) vs "tay" (âm ngắn ă)).
+          * 3 nguyên âm đôi: **/iê/, /uô/, /ươ/**.
+        * **Phụ âm:** Tiếng việt có 17 phụ âm đơn (b, m, v, d, t, n...) và 10 phụ âm ghép (ch, tr, nh, ng, ngh, th, kh, ph, gh, gi).
+        * **Thanh điệu:** 6 thanh (ngang, huyền, ngã, hỏi, sắc, nặng). Thanh điệu là yếu tố quan trọng nhất khu biệt nghĩa ở cấp độ âm tiết (ma, mà, má, mạ...).
+        """)
+        
+        st.warning("""
+        **QUY TẮC CHÍNH TẢ BẮT BUỘC NHỚ:**
+        * **Bộ ba c/k/q:** 
+          * Đi với (i, e, ê) -> Viết là **k** (kí, kệ, kén).
+          * Đi với âm đệm (u) -> Viết là **q** (quốc, quả).
+          * Còn lại -> Viết là **c** (cá, cơm, cúc).
+        * **Bộ ba ng/ngh và g/gh:**
+          * Đi với (i, e, ê) -> Viết là **ngh, gh** (nghỉ ngơi, ghế gỗ).
+          * Còn lại -> Viết là **ng, g** (ngủ, gà).
+        """)
             
     with tab3:
-        st.subheader("Cấu tạo Âm tiết")
-        colA, colB = st.columns(2)
-        with colA:
-            st.success('''
-            **Tiếng Anh**
-            * `Khởi âm` (1) + `Đỉnh âm` (2) + `Kết âm` (3).
-            * **Đỉnh âm:** Luôn luôn nằm ở trung tâm và không bao giờ vắng mặt. Luôn do 1 nguyên âm đảm nhận.
-            * *Quy tắc:* Từ có bao nhiêu nguyên âm (đỉnh âm) thì có bấy nhiêu âm tiết. 
-            * *(Vd: car = 1; table = 2; bicycle = 3).*
-            ''')
-        with colB:
-            st.info('''
-            **Tiếng Việt**
-            * Gồm 5 phần: `Âm đầu` + `Âm đệm (u,o)` + `Âm chính` + `Âm cuối (p, t, c, m, n, nh, ch, i/y, u/o)` + `Thanh điệu`.
-            * `Âm đệm + Âm chính + Âm cuối` gọi chung là **Phần vần**.
-            * Tiếng Việt có 6 thanh điệu (không, huyền, ngã, hỏi, sắc, nặng).
-            * *(Vd: "tan" - vắng âm đệm; "toàn" - đủ 5 thành phần).*
-            ''')
+        st.subheader("Cấu tạo Âm tiết (Syllable)")
+        st.write("Âm tiết là khúc đoạn âm thanh nhỏ nhất ta phát ra. Cách tính số lượng âm tiết:")
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            st.success("""
+            **TIẾNG ANH**
+            * Cấu trúc: `Khởi âm` + `ĐỈNH ÂM` + `Kết âm`.
+            * **ĐỈNH ÂM (Nguyên âm):** Yếu tố cốt lõi, không bao giờ vắng mặt.
+            * **Cách đếm âm tiết:** Một từ có bao nhiêu nguyên âm đọc lên (đỉnh âm) thì có bấy nhiêu âm tiết.
+            * *Ví dụ:* 
+              * `Cat` (1 nguyên âm /æ/) -> 1 âm tiết.
+              * `Table` (2 nguyên âm /eɪ/ và /ə/) -> 2 âm tiết.
+              * `Beautiful` (/bjuːtɪfʊl/ - 3 nguyên âm) -> 3 âm tiết.
+            """)
+        with col2:
+            st.info("""
+            **TIẾNG VIỆT**
+            * Cấu trúc tối đa 5 phần: `Âm đầu` + `Âm đệm` + `ÂM CHÍNH` + `Âm cuối` + `Thanh điệu`.
+            * *Phần Vần:* Gồm Âm đệm + Âm chính + Âm cuối.
+            * *Ví dụ phân tích từ "Toàn":*
+              * Âm đầu: t
+              * Âm đệm: o
+              * Âm chính (Đỉnh âm): a
+              * Âm cuối: n
+              * Thanh điệu: huyền
+            * Từ "Ta": Chỉ có Âm đầu (t) + Âm chính (a) + Thanh ngang. Vắng đệm và vắng cuối.
+            """)
 
 elif choice == "Bài 5: Từ vựng":
     st.title("Bài 5: Từ vựng")
     
-    st.markdown("Từ vựng (Lexicon) là tập hợp các đơn vị có nghĩa nhỏ nhất. Ngành nghiên cứu về nó gọi là **Từ vựng học (Lexicology)**.")
-    st.write("**Các đơn vị từ vựng:**")
-    st.markdown('''
-    1. **Từ:** Đơn vị cơ bản nhất, độc lập, có chức năng định danh.
-    2. **Cụm từ cố định:** Thành ngữ *(mẹ tròn con vuông)*, Quán ngữ *(của đáng tội)*.
-    3. **Tên riêng:** Gọi tên đối tượng cá biệt, đơn nhất (nhân danh, địa danh, tên cơ quan...).
-    ''')
+    st.markdown("Từ vựng học (Lexicology) nghiên cứu về: **Từ** (hoạt động độc lập), **Cụm từ cố định** (Thành ngữ: *Chó ngáp phải ruồi*, Quán ngữ: *Nói tóm lại*, *Của đáng tội*), và **Tên riêng**.")
     
-    tab1, tab2, tab3 = st.tabs(["Hình vị & Cấu tạo từ", "Phân loại từ", "Ý nghĩa của Từ"])
+    tab1, tab2, tab3 = st.tabs(["Cấu tạo từ", "Phân loại từ", "Ý nghĩa của Từ"])
     with tab1:
-        st.subheader("1. Đơn vị cấu tạo từ (Hình vị - Morpheme)")
-        st.markdown('''
+        st.subheader("1. Đơn vị cấu tạo từ: HÌNH VỊ (Morpheme)")
+        st.markdown("""
+        Hình vị là đơn vị nhỏ nhất CÓ NGHĨA.
         * **Trong tiếng Anh:** 
-          * *Hình vị căn tố (Root):* Mang nghĩa từ vựng cốt lõi. (Vd: `teach`).
-          * *Hình vị phụ tố (Affix):* Mang nghĩa ngữ pháp (Tiền tố `un-`, Hậu tố `-er`, Trung tố).
-        * **Trong tiếng Việt (Tiếng / Từ tố):**
-          * *Tiếng độc lập (Tự do):* Đứng một mình có nghĩa (Vd: `sạch`).
-          * *Tiếng không độc lập:* Phải ghép mới có nghĩa (Vd: `sẽ` trong `sạch sẽ`).
-        ''')
-        st.subheader("2. Phương thức cấu tạo từ")
-        st.write("* **Tiếng Anh:** Phụ gia (teach+er = teacher), Ghép (class+room = classroom), Láy (chit-chat, zigzag).*")
-        st.write("* **Tiếng Việt:** Ghép (nhà cửa, máy bay), Láy (sạch sẽ, lủng cà lủng củng).*")
+          * Căn tố (Root): Nghĩa cốt lõi. VD: `happy` (hạnh phúc).
+          * Phụ tố (Affix): Thêm nghĩa ngữ pháp hoặc trái nghĩa. VD: `un-` (tiền tố chỉ sự phủ định), `-ness` (hậu tố biến thành danh từ). -> `unhappiness` có 3 hình vị.
+        * **Trong tiếng Việt:** Hình vị đồng nhất với "Tiếng".
+          * *Tiếng tự do:* Đứng 1 mình có nghĩa (VD: `nhà`, `xe`, `đẹp`).
+          * *Tiếng không tự do:* Phải đi kèm từ khác mới rõ nghĩa (VD: chữ `sẽ` trong `sạch sẽ`, chữ `rào` trong `rì rào`, chữ `quốc` trong `quốc gia`).
+        """)
         
     with tab2:
-        st.subheader("Phân loại từ theo hình thức cấu tạo")
-        st.markdown('''
-        * **Từ đơn:** nhà, cửa, trời, đất...
-        * **Từ ghép:**
-          * *Đẳng lập:* nhà cửa, bàn ghế, xe cộ.
-          * *Chính phụ:* tàu hỏa, đường sắt, sân bay.
-          * *Ngẫu hợp:* mì chính, bồ hóng, ễnh ương.
-        * **Từ láy:**
-          * *Láy đôi:* sạch sẽ, bóng bảy.
-          * *Láy ba:* sạch sành sanh, sát sàn sạt.
-          * *Láy tư:* khúc kha khúc khuỷu.
-        ''')
+        st.subheader("2. Phương thức cấu tạo từ")
+        colA, colB = st.columns(2)
+        with colA:
+            st.markdown("""
+            **TIẾNG ANH**
+            * **Phụ gia:** Thêm phụ tố vào căn tố. VD: `teach` + `er` = `teacher` (người dạy).
+            * **Ghép:** Nối 2 căn tố độc lập. VD: `black` (đen) + `board` (bảng) = `blackboard` (bảng đen).
+            * **Láy:** Lặp lại vỏ ngữ âm. VD: `zigzag` (ngoằn ngoèo), `chit-chat` (tán gẫu).
+            """)
+        with colB:
+            st.markdown("""
+            **TIẾNG VIỆT**
+            * **Từ Ghép:** Phối hợp các tiếng có nghĩa.
+              * *Đẳng lập:* 2 tiếng bình đẳng (quần áo, bàn ghế, ăn uống).
+              * *Chính phụ:* 1 chính 1 phụ (xe đạp, tàu hỏa, hoa hồng - hoa là chính, hồng là phụ chỉ màu sắc).
+            * **Từ Láy:** Phối hợp âm thanh. (sạch sẽ, đo đỏ, rập rờn, lúng ta lúng túng).
+            """)
         
     with tab3:
-        st.subheader("Các thành tố nghĩa của từ (Ngữ nghĩa học - Semantics)")
-        st.markdown('''
-        * **Nghĩa biểu vật (Denotative):** Liên hệ giữa vỏ ngữ âm với sự vật hiện tượng thực tế (nhà, cửa, nóng, lạnh).
-        * **Nghĩa biểu niệm (Significative):** Liên hệ giữa từ với ý niệm, thuộc tính khái quát. *(Vd: "Gà" = động vật nuôi, họ chim, sống trên cạn, lấy thịt/trứng).*
-        * **Nghĩa biểu thái/Ngữ dụng (Pragmatical):** Thái độ, cảm xúc người nói. *(Vd: "mắt trắng dã" biểu thị sự chê bai/coi thường; "Ôi Tổ quốc..." biểu thị cảm xúc).*
-        * **Nghĩa ngữ pháp (Grammar meaning):** Ý nghĩa nối kết giữa các từ trong lời nói.
-        ''')
+        st.subheader("3. Các thành tố nghĩa của từ")
+        st.markdown("""
+        Lấy từ **"Cáo"** làm ví dụ phân tích:
+        * **Nghĩa biểu vật (Denotative):** Gọi tên đúng con vật có 4 chân, mõm dài, lông hung, sống trong rừng.
+        * **Nghĩa biểu niệm (Significative):** Tập hợp các đặc trưng, thuộc tính (động vật ăn thịt, họ chó, tinh ranh).
+        * **Nghĩa biểu thái (Pragmatical):** Thái độ đánh giá. Khi nói "Thằng đó là một con cáo", ta dùng nghĩa biểu thái để chỉ sự xảo quyệt, gian ngoan (có ý chê bai, cảnh giác).
+        * **Nghĩa ngữ pháp:** Sự liên kết của từ "Cáo" (Danh từ) với các từ khác trong câu.
+        """)
 
 elif choice == "Bài 6: Ngữ pháp":
     st.title("Bài 6: Ngữ pháp")
     
-    st.markdown('''
-    Ngữ pháp là tổng thể các quy tắc kết hợp các đơn vị có nghĩa bậc thấp thành bậc cao.
-    * **Hình thái học (Morphology):** Nghiên cứu cấu trúc bên trong của từ (cấu tạo từ, biến hình từ, đặc tính ngữ pháp).
-    * **Cú pháp học (Syntactics):** Nghiên cứu quy tắc ghép từ thành cụm từ và câu.
-    ''')
-    st.info("**Hệ thống đơn vị:** `Hình vị (Morpheme)` $\rightarrow$ `Từ (Words)` $\rightarrow$ `Cụm từ (Phrase)` $\rightarrow$ `Câu (Sentence)`")
+    st.markdown("""
+    Ngữ pháp gồm 2 mảng: **Hình thái học** (biến đổi từ) và **Cú pháp học** (ghép từ thành câu).
+    *Trình tự phân tích:* `Hình vị` -> `Từ` -> `Cụm từ` -> `Câu`.
+    """)
     
-    tab1, tab2 = st.tabs(["Ý nghĩa & Phương thức Ngữ pháp", "Phạm trù & Quan hệ Ngữ pháp"])
+    tab1, tab2 = st.tabs(["Ý nghĩa & Phương thức", "Phạm trù & Quan hệ"])
     with tab1:
-        st.subheader("1. Ý nghĩa ngữ pháp vs Ý nghĩa từ vựng")
-        st.markdown('''
-        * **Ý nghĩa từ vựng:** Nghĩa cụ thể của riêng một từ. *(Vd: "bàn" = đồ dùng bằng gỗ, mặt phẳng, có chân để bày đồ...).*
-        * **Ý nghĩa ngữ pháp:** Nghĩa chung bao trùm lên 1 nhóm từ. *(Vd: các từ nhà, cửa, chó, mèo... đều mang ý nghĩa ngữ pháp chỉ "sự vật" nói chung $\rightarrow$ Danh từ).*
-        ''')
+        st.subheader("1. Ý nghĩa ngữ pháp")
+        st.write("Khác với ý nghĩa từ vựng (chỉ một sự vật cụ thể), ý nghĩa ngữ pháp mang tính khái quát cho cả một nhóm.")
+        st.markdown("""
+        * *Ví dụ:* "Đang", "Đã", "Sẽ" đều có ý nghĩa ngữ pháp chung là **chỉ thời gian của hành động** (Thì/Thể). 
+        * Các từ "Cây", "Sông", "Nhà", "Xe" đều có ý nghĩa ngữ pháp chung là **Danh từ chỉ sự vật**.
+        """)
+        
         st.subheader("2. Phương thức ngữ pháp")
-        st.markdown('''
-        * **Phương thức phụ gia:** Dùng phụ tố kết hợp căn tố để tạo Từ phái sinh (Dùng nhiều ở Anh, Pháp, Đức... Vd: `teach` + `er` = `teacher`).
-        * **Phương thức biến đổi căn tố:** Thay đổi cấu tạo bên trong căn tố. *(Vd: `take` $\rightarrow$ `took`; `foot` $\rightarrow$ `feet`; `good` $\rightarrow$ `better`).*
-        * **Phương thức ngữ điệu:** Thay đổi đường nét giọng nói (Áp dụng cho mọi ngôn ngữ. Vd: *Give it to me!*).
-        ''')
+        st.markdown("""
+        Cách các ngôn ngữ tạo ra ý nghĩa ngữ pháp:
+        * **Phương thức phụ gia:** Dùng phổ biến ở ngôn ngữ biến hình (Anh, Nga). Vd thêm `-ed` để chỉ quá khứ: `play` -> `played`. Thêm `-s` để chỉ số nhiều: `cat` -> `cats`.
+        * **Phương thức biến đổi căn tố:** Tự đổi ruột bên trong. Vd: `man` -> `men` (đàn ông số nhiều), `go` -> `went` (đi - quá khứ).
+        * **Phương thức hư từ (Đặc trưng Tiếng Việt):** Tiếng Việt không biến đổi từ, mà dùng từ đi kèm (hư từ). Vd: Thêm "những/các" để chỉ số nhiều (*những con mèo*), thêm "đã/sẽ" chỉ thời gian (*đã đi*).
+        """)
+        
     with tab2:
-        st.subheader("1. Phạm trù ngữ pháp (Grammatical categories)")
-        st.markdown('''
-        Những ý nghĩa đối lập tạo thành từng nhóm (2 loại trở lên):
-        * **Giống (Gender):** Thuộc danh từ. *(Vd Tiếng Nga: cтoл - giống đực; книга - giống cái).*
-        * **Số (Number):** Thuộc danh từ. Ít/nhiều *(Vd: book - books).*
-        * **Ngôi (Person):** Thuộc động từ, biểu thị vai giao tiếp. *(Vd: I shall speak / Tôi sẽ nói).*
-        ''')
-        st.subheader("2. Quan hệ ngữ pháp (Grammatical relation)")
-        st.markdown('''
-        * **Quan hệ Đẳng lập:** Bình đẳng, tạo từ/cụm từ/câu. *(Vd: bàn ghế, tuy thông minh nhưng lười học).*
-        * **Quan hệ Chính - phụ:** Phụ thuộc 1 chiều, tạo từ/cụm từ/câu. *(Vd: tàu thủy, thích vẽ).*
-        * **Quan hệ Chủ - vị:** Phụ thuộc qua lại, **chỉ tham gia tạo câu**. *(Vd: Chim hót hay).*
-        ''')
+        st.subheader("1. Phạm trù ngữ pháp")
+        st.markdown("""
+        Những ý nghĩa đối lập kết hợp thành một phạm trù:
+        * **Phạm trù Số:** Đối lập Số ít vs Số nhiều.
+        * **Phạm trù Giống:** Đối lập Giống Đực vs Giống Cái (Rất rõ trong tiếng Pháp: *le* (đực), *la* (cái). Tiếng Nga: *cтoл* (đực) vs *книга* (cái)).
+        * **Phạm trù Thời / Thì:** Đối lập Quá khứ, Hiện tại, Tương lai.
+        * **Phạm trù Ngôi:** Ngôi 1 (người nói), Ngôi 2 (người nghe), Ngôi 3 (người được nhắc đến).
+        """)
+        
+        st.subheader("2. Quan hệ ngữ pháp")
+        st.markdown("""
+        Cách các từ liên kết với nhau trên trục tuyến tính:
+        * **Quan hệ Đẳng lập:** Hai bên bình đẳng, không ai làm chủ. Có thể đảo vị trí. *(Vd: "gió và mưa", có thể đổi thành "mưa và gió" mà kết cấu không bị phá vỡ).*
+        * **Quan hệ Chính - phụ:** Một từ quyết định, một từ phụ họa. Không thể đảo lộn. *(Vd: "áo đỏ" -> "áo" là chính, "đỏ" bổ nghĩa. Đổi thành "đỏ áo" là vô nghĩa).*
+        * **Quan hệ Chủ - vị:** Quan hệ bắt buộc để tạo thành CÂU. Chủ ngữ chỉ đối tượng, Vị ngữ chỉ đặc điểm/hành động. *(Vd: "Mặt trời (C) / đang lặn (V)").*
+        """)
